@@ -1,11 +1,11 @@
-##PHP library for Robokassa payment system
+## PHP library for Robokassa payment system
 
 [![Latest Unstable Version](https://poser.pugx.org/idma/robokassa/v/unstable.svg)](https://packagist.org/packages/idma/robokassa)
 [![Latest Stable Version](https://poser.pugx.org/idma/robokassa/v/stable.svg)](https://packagist.org/packages/idma/robokassa)
 [![Total Downloads](https://poser.pugx.org/idma/robokassa/downloads.svg)](https://packagist.org/packages/idma/robokassa)
 [![License](https://poser.pugx.org/idma/robokassa/license.svg)](https://packagist.org/packages/idma/robokassa)
 
-###Installation
+## Installation
 
 Install this package through Composer. To your `composer.json` file, add:
 ```js
@@ -16,7 +16,7 @@ Install this package through Composer. To your `composer.json` file, add:
 }
 ```
 
-###Examples
+## Examples
 
 Create payment:
 ```php
@@ -52,3 +52,4 @@ if ($payment->validate($_GET) {
     echo $payment->getSuccessAnswer(); // "OK1254487\n"
 }
 ...
+```
