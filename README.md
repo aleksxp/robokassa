@@ -38,7 +38,7 @@ Check payment result:
 // somewere in result url handler...
 ...
 $payment = new \Idma\Robokassa\Payment(
-    'john_dow', 'password1', 'password2', true
+    'john_doe', 'password1', 'password2', true
 );
 
 if ($payment->validate($_GET) {
